@@ -1,0 +1,11 @@
+Thu Jan  9 20:30:14 2025
+Available CPUs: 30
+
+
+      id         reads   CPUs   active       startTime             endTime         done   duration  
+--------------- ------- ------ -------- -------------------- -------------------- ------ -----------
+ test~subjectB   5656     5       NA     01.09.2025  8:28pm   01.09.2025  8:30pm   TRUE   1 minutes 
+ test~subjectC   5600     10      NA     01.09.2025  8:28pm   01.09.2025  8:29pm   TRUE   1 minutes 
+ test~subjectA   5598     10      NA     01.09.2025  8:28pm   01.09.2025  8:30pm   TRUE   1 minutes 
+
+

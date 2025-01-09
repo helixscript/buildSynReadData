@@ -1,0 +1,44 @@
+Thu Jan  9 20:28:17 2025
+Available CPUs: 30
+
+
+           id              reads   CPUs   active       startTime             endTime         done    duration  
+------------------------- ------- ------ -------- -------------------- -------------------- ------ ------------
+ test~subjectA~sample1~1    743     5       NA     01.09.2025  7:45pm   01.09.2025  7:55pm   TRUE   9 minutes  
+ test~subjectA~sample1~2    359     3       NA     01.09.2025  7:56pm   01.09.2025  8:05pm   TRUE   9 minutes  
+ test~subjectA~sample1~3    391     3       NA     01.09.2025  7:56pm   01.09.2025  8:06pm   TRUE   10 minutes 
+ test~subjectA~sample1~4    380     3       NA     01.09.2025  7:56pm   01.09.2025  8:06pm   TRUE   10 minutes 
+ test~subjectA~sample2~1    761     5       NA     01.09.2025  7:45pm   01.09.2025  7:55pm   TRUE   9 minutes  
+ test~subjectA~sample2~2    375     3       NA     01.09.2025  7:57pm   01.09.2025  8:07pm   TRUE   10 minutes 
+ test~subjectA~sample2~3    393     3       NA     01.09.2025  7:57pm   01.09.2025  8:07pm   TRUE   10 minutes 
+ test~subjectA~sample2~4    377     3       NA     01.09.2025  8:04pm   01.09.2025  8:14pm   TRUE   9 minutes  
+ test~subjectA~sample3~1    753     5       NA     01.09.2025  7:45pm   01.09.2025  7:56pm   TRUE   10 minutes 
+ test~subjectA~sample3~2    374     3       NA     01.09.2025  8:05pm   01.09.2025  8:14pm   TRUE   9 minutes  
+ test~subjectA~sample3~3    372     3       NA     01.09.2025  8:05pm   01.09.2025  8:15pm   TRUE   10 minutes 
+ test~subjectA~sample3~4    367     3       NA     01.09.2025  8:05pm   01.09.2025  8:15pm   TRUE   9 minutes  
+ test~subjectB~sample1~1    758     5       NA     01.09.2025  7:45pm   01.09.2025  7:56pm   TRUE   11 minutes 
+ test~subjectB~sample1~2    387     3       NA     01.09.2025  8:05pm   01.09.2025  8:15pm   TRUE   9 minutes  
+ test~subjectB~sample1~3    383     3       NA     01.09.2025  8:06pm   01.09.2025  8:16pm   TRUE   10 minutes 
+ test~subjectB~sample1~4    381     3       NA     01.09.2025  8:06pm   01.09.2025  8:16pm   TRUE   9 minutes  
+ test~subjectB~sample2~1    767     5       NA     01.09.2025  7:46pm   01.09.2025  7:56pm   TRUE   10 minutes 
+ test~subjectB~sample2~2    378     3       NA     01.09.2025  8:06pm   01.09.2025  8:17pm   TRUE   10 minutes 
+ test~subjectB~sample2~3    371     3       NA     01.09.2025  8:07pm   01.09.2025  8:17pm   TRUE   10 minutes 
+ test~subjectB~sample2~4    373     3       NA     01.09.2025  8:07pm   01.09.2025  8:18pm   TRUE   10 minutes 
+ test~subjectB~sample3~1    741     5       NA     01.09.2025  7:46pm   01.09.2025  7:56pm   TRUE   10 minutes 
+ test~subjectB~sample3~2    371     3       NA     01.09.2025  8:14pm   01.09.2025  8:24pm   TRUE   9 minutes  
+ test~subjectB~sample3~3    381     3       NA     01.09.2025  8:14pm   01.09.2025  8:24pm   TRUE   9 minutes  
+ test~subjectB~sample3~4    365     3       NA     01.09.2025  8:15pm   01.09.2025  8:24pm   TRUE   9 minutes  
+ test~subjectC~sample1~1    732     5       NA     01.09.2025  7:55pm   01.09.2025  8:04pm   TRUE   9 minutes  
+ test~subjectC~sample1~2    376     3       NA     01.09.2025  8:15pm   01.09.2025  8:26pm   TRUE   10 minutes 
+ test~subjectC~sample1~3    377     3       NA     01.09.2025  8:15pm   01.09.2025  8:25pm   TRUE   9 minutes  
+ test~subjectC~sample1~4    364     3       NA     01.09.2025  8:16pm   01.09.2025  8:26pm   TRUE   9 minutes  
+ test~subjectC~sample2~1    763     5       NA     01.09.2025  7:55pm   01.09.2025  8:04pm   TRUE   8 minutes  
+ test~subjectC~sample2~2    383     3       NA     01.09.2025  8:16pm   01.09.2025  8:25pm   TRUE   9 minutes  
+ test~subjectC~sample2~3    370     3       NA     01.09.2025  8:17pm   01.09.2025  8:25pm   TRUE   8 minutes  
+ test~subjectC~sample2~4    362     3       NA     01.09.2025  8:17pm   01.09.2025  8:26pm   TRUE   8 minutes  
+ test~subjectC~sample3~1    741     5       NA     01.09.2025  7:56pm   01.09.2025  8:05pm   TRUE   9 minutes  
+ test~subjectC~sample3~2    378     1       NA     01.09.2025  8:18pm   01.09.2025  8:28pm   TRUE   10 minutes 
+ test~subjectC~sample3~3    385     1       NA     01.09.2025  8:18pm   01.09.2025  8:27pm   TRUE   9 minutes  
+ test~subjectC~sample3~4    369     1       NA     01.09.2025  8:18pm   01.09.2025  8:27pm   TRUE   9 minutes  
+
+
