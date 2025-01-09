@@ -7,7 +7,7 @@ Synthetic reads are created with the buildSynReadData.py script:
 usage: buildSynReadData.py [-h] [-o] [-m] [-n] [-f] [-p] [-d] [-s] [-r] [-g] [-i] [-t] [-x] [-y] [-z] [-e] [-c]
 
 options:
-  -h, --help                  Show this help message and exit
+  -h, --help                 Show this help message.
   -o, --outputDir            Output directory path. Default (./output).
   -m, --mode                 Mode (integrase or AAV). Default (integrase).
   -n, --nSites               Number of sites to generate. Default (100).
