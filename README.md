@@ -74,6 +74,18 @@ After AAVengeR has processed the synthetic data, the evalSynDataResult.R can be 
 <br>
 
 ```
+usage: ./evalSynDataResult.R [-h] [-s] [-m] [-t] [-o] [-w]
+
+options:
+  -h,  --help          Show this help message.
+  -s, --sitesFile      Path to AAVengeR sites output file (rds).
+  -m, --multiHitFile   Path to AAVengeR multiJitCluster output file (rds).
+  -t, --truthFile      Path to synthetic data truth file (tsv).
+  -o, --outputDir      Path to output directory.
+  -w, --siteWidth      Number of NTs to expand truth positions during evaluation (default 5).
+```
+
+```
 ./evalSynDataResult.R --sitesFile    integrase_dataSet/output/core/sites.rds
                       --multiHitFile integrase_dataSet/output/core/multiHitClusters.rds
                       --truthFile    integrase_dataSet/truth.tsv
