@@ -11,7 +11,7 @@ parser$add_argument("-s", "--sitesFile",    type="character",  default='sites.rd
 parser$add_argument("-m", "--multiHitFile", type="character",  default='multiHitClusters.rds', help="Path to AAVengeR multiJitCluster output file (rds).", metavar="")
 parser$add_argument("-t", "--truthFile",    type="character",  default='truth.tsv',            help="Path to synthetic data truth file (tsv).", metavar="")
 parser$add_argument("-o", "--outputDir",    type="character",  default='out',                  help="Path to output directory.", metavar="")
-parser$add_argument("-w", "--siteWidth",    type="integer",    default=3,                      help="Number of NTs to expand truth positions during evaluation.", metavar="")
+parser$add_argument("-w", "--siteWidth",    type="integer",    default=5,                      help="Number of NTs to expand truth positions during evaluation.", metavar="")
 args <- parser$parse_args()
 
 # Test for input errors.
@@ -117,10 +117,7 @@ tab2 <- bind_rows(lapply(split(t, paste(t$trial, t$subject, t$sample)), function
     
             i <- findOverlaps(tg, rg)
     
-            if(length(i) == 1){
-              zz <- r[subjectHits(i),]$posid
-              if(length(zz) > 1) browser()
-                                    
+            if(length(i) == 1){                                    
               rPos <- as.integer(unlist(strsplit(r[subjectHits(i),]$posid, '[\\+\\-]'))[2])
               tPos <- as.integer(unlist(strsplit(xx$posid, '[\\+\\-]'))[2])
       
@@ -128,13 +125,7 @@ tab2 <- bind_rows(lapply(split(t, paste(t$trial, t$subject, t$sample)), function
               xx$readDiff <- xx$nReads - r[subjectHits(i),]$reads
               xx$fragDiff <- xx$nFrags - r[subjectHits(i),]$sonicLengths
               xx$leaderSeqDist <- stringdist(xx$leaderSeq, r[subjectHits(i),]$repLeaderSeq)
-            } else if (length(i) > 1){
-              # More than one site was recovered near the expected site.
-              xx$posDiff  <- 999
-              xx$readDiff <- 999
-              xx$fragDiff <- 999
-              xx$leaderSeqDist <- 999
-            } else {
+            }
               xx$posDiff  <- NA
               xx$readDiff <- NA
               xx$fragDiff <- NA
