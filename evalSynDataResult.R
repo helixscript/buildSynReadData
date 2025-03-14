@@ -125,7 +125,7 @@ tab2 <- bind_rows(lapply(split(t, paste(t$trial, t$subject, t$sample)), function
               xx$readDiff <- xx$nReads - r[subjectHits(i),]$reads
               xx$fragDiff <- xx$nFrags - r[subjectHits(i),]$sonicLengths
               xx$leaderSeqDist <- stringdist(xx$leaderSeq, r[subjectHits(i),]$repLeaderSeq)
-            }
+            } else {
               xx$posDiff  <- NA
               xx$readDiff <- NA
               xx$fragDiff <- NA
